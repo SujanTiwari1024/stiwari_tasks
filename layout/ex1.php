@@ -14,5 +14,46 @@ echo "Hello World! My name is \"Sujan\""
 
 <h1>3.2 Write a PHP code to display Date.</h1>
 <?php echo date("d.m.y") ?>
+
+<h3>3.4 Variable in PHP</h3>
+<?php $title1 = "PHP is instresting";
+echo "<h1>".$title1."</h1>";
+?>
+
+<h3>3.5 Table & Variables</h3>
+<?php
+$g1 = 5;
+$g2 = 4;
+$g3 = 5;
+echo"
+<table border:1px solid black>
+  <tr>
+    <th>SN</th>
+    <th>Name</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Maria Anders</td>
+    <td>$g1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Francisco Chang</td>
+    <td>$g2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Sujan Tiwari</td>
+    <td>$g3</td>
+  </tr>
+</table>";
+?>
+<h3> 4 Schreenshot </h3>
+<img src="Screenshot.png" alt="" width="50%" height="auto">
+
+
 <?php include "footer.php" ?>
+
+
 
