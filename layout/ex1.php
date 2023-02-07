@@ -26,23 +26,23 @@ $g1 = 5;
 $g2 = 4;
 $g3 = 5;
 echo"
-<table border:1px solid black>
-  <tr>
+<table style='border:1px solid black'>
+  <tr style='border:1px solid black'>
     <th>SN</th>
     <th>Name</th>
     <th>Grade</th>
   </tr>
-  <tr>
+  <tr style='border:1px solid black'>
     <td>1</td>
     <td>Maria Anders</td>
     <td>$g1</td>
-  </tr>
-  <tr>
+  </tr >
+  <tr style='border:1px solid black'>
     <td>2</td>
     <td>Francisco Chang</td>
     <td>$g2</td>
   </tr>
-  <tr>
+  <tr style='border:1px solid black'>
     <td>3</td>
     <td>Sujan Tiwari</td>
     <td>$g3</td>
