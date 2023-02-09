@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<?php $title = "PHP Script"; ?>
 <h1>3.1 Write siple PHP script.</h1>
 
 <?php 
