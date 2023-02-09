@@ -6,8 +6,8 @@ $dob= $_POST['bdate'];
 $color= $_POST['color'];
 
 
-echo "<h3> Your name is $fname $lname /.
-Your fav color is $color and your date of birth is $bdate. 
+echo "<h3> Your name is $fname $lname.
+Your fav color is $color and your date of birth is $dob. 
 </h3>";
 
 
