@@ -39,10 +39,10 @@
           <a class="nav-link" href="controlflow.php">Ex 4 ControlFlow</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="array.php">Ex 5 Arrays</a>
+          <a class="nav-link" href="../layout/array.php">Ex 5 Arrays</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="databse.php">Ex 6 Database</a>
+          <a class="nav-link" href="../crud1/create.php">Ex 6 Database</a>
         </li>        
       </ul>
 
