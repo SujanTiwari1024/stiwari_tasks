@@ -27,23 +27,26 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Ex 1 PHP Script</a>
+          <a class="nav-link" href="../layout/ex1.php">Ex 1 PHP Script</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Ex 2 HeaderFooter</a>
+          <a class="nav-link" href="../layout/restaurantindex.php">Ex 2 HeaderFooter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">Ex 3 Variables</a>
+          <a class="nav-link" href="../layout/variable.php">Ex 3 Variables</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">Ex 4 ControlFlow</a>
+          <a class="nav-link" href="../layout/controlflow.php">Ex 4 ControlFlow</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../layout/array.php">Ex 5 Arrays</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../crud1/create.php">Ex 6 Database</a>
-        </li>        
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="../crud1/read.php">Ex 7 Database </a>
+        </li>      
       </ul>
 
       <form class="d-flex" role="search">

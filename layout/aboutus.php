@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<h1>About Us</h1>
+<h2>About Us</h2>
 
 <?php 
 echo "Sujan Tiwari <br>";

@@ -1,27 +1,28 @@
-<?php include "header.php" ?>
-<?php $title = "PHP Script"; ?>
-<h1>3.1 Write siple PHP script.</h1>
+<?php $title = "PHP Script";
+include "header.php" ?>
+
+<h2>3.1 Write simple PHP script.</h2>
 
 <?php 
 echo "Sujan Tiwari <br>";
 echo "BCAP22 <br>";
 // somechanges
-?>
+?><br>
 
-<h1>3.2 Write a PHP code to display given message.</h1>
+<h2>3.2 Write a PHP code to display given message.</h2>
 <?php
-echo "Hello World! My name is \"Sujan\""
-?>
+echo "Hello World! My name is \"Sujan\"";
+?><br><br>
 
-<h1>3.2 Write a PHP code to display Date.</h1>
-<?php echo date("d.m.y") ?>
+<h2>3.2 Write a PHP code to display Date.</h2>
+<?php echo date("d.m.y"); ?><br><br>
 
-<h3>3.4 Variable in PHP</h3>
+<h2>3.4 Variable in PHP</h2>
 <?php $title1 = "PHP is instresting";
-echo "<h1>".$title1."</h1>";
-?>
+echo "<h4>".$title1."</h4>";
+?><br>
 
-<h3>3.5 Table & Variables</h3>
+<h2>3.5 Table & Variables</h2>
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -49,10 +50,9 @@ echo"
     <td>$g3</td>
   </tr>
 </table>";
-?>
-<h3> 4 Schreenshot </h3>
+?><br>
+<h2>4 Schreenshot</h2>
 <img src="Screenshot.png" alt="" width="50%" height="auto">
-
 
 <?php include "footer.php" ?>
 
