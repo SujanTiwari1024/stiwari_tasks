@@ -1,6 +1,8 @@
 <?php $title = "PHP Script";
 include "header.php" ?>
 
+
+
 <h2>3.1 Write simple PHP script.</h2>
 
 <?php 
@@ -17,6 +19,14 @@ echo "Hello World! My name is \"Sujan\"";
 <h2>3.2 Write a PHP code to display Date.</h2>
 <?php echo date("d.m.y"); ?><br><br>
 
+<script>
+document.write ("Hello World! This is javascript.");
+
+</script>
+<noscript>
+  Please enable Javascript to view this page properly.
+</noscript>
+<input type="button" onclick="hello()" value="Click Me">
 <h2>3.4 Variable in PHP</h2>
 <?php $title1 = "PHP is instresting";
 echo "<h4>".$title1."</h4>";

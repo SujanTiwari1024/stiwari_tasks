@@ -11,7 +11,8 @@
   a, .nav-link,.navbar-brand {
     color: white;
 }
-    </style>
+  </style>
+<script src="../layout/js/site.js"></script>
 </head>
 <body>
 
