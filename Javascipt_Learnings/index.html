@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Restaurant</title>
+    <style>
+      .element {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      button{
+        color: antiquewhite;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="element">
+      <h1 id="counter">0</h1>
+      <div>
+        <button style="background-color: red;" onclick="minus()">-</button>
+        <button style="background-color: green;" onclick="reset()">Reset</button>
+        <button style="background-color: rgb(94, 94, 90);" onclick="add()">+</button>
+      </div>
+      <p id="max"></p>
+    </div>
+  </body>
+
+  <script>
+    let value = 0;
+
+    function add() {
+      if (value<10){
+        value++;
+        console.log(value);
+        document.querySelector("#max").innerHTML = "";     
+      }
+      else{
+        console.log("Max");
+        document.querySelector("#max").innerHTML = "Maximun limit reached.";
+      }
+      
+      document.querySelector("#counter").innerHTML = value;
+    }
+
+    function minus() {
+      if (value>-10){
+        value--;
+        console.log(value);
+        document.querySelector("#max").innerHTML = "";
+      }
+      else{
+        console.log("Min");
+        document.querySelector("#max").innerHTML = "Minimun limit reached.";
+      }
+      document.querySelector("#counter").innerHTML = value;
+    }
+
+    function reset() {
+      value = 0;
+      console.log(value);
+      document.querySelector("#counter").innerHTML = value;
+      document.querySelector("#max").innerHTML = "";
+    }
+  </script>
+</html>
